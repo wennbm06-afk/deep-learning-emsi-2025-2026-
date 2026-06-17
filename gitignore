@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Données volumineuses téléchargées (datasets bruts, à ne pas versionner)
+data/raw/
+*.csv.gz
+
+# Fichiers temporaires
+*.tmp
+*.bak
