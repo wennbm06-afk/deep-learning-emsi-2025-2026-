@@ -1,6 +1,6 @@
 # Projet de Fin de Module — Deep Learning (EMSI Casablanca, 2025-2026)
 
-## 📌 Idée générale du projet
+Idée générale du projet
 
 Ce repository contient l'ensemble des travaux réalisés dans le cadre du projet de fin de module **Deep Learning** à l'EMSI Casablanca. Le projet vise à concevoir, implémenter et comparer plusieurs familles d'architectures de deep learning sous **PyTorch**, en les adaptant à trois types de structures de données distinctes :
 
@@ -21,7 +21,7 @@ Une discussion transversale finale relie les trois approches en expliquant pourq
 
 ---
 
-## 📁 Structure des dossiers et fichiers
+## Structure des dossiers et fichiers
 
 ```
 deep-learning-emsi-2025-2026/
@@ -51,13 +51,12 @@ deep-learning-emsi-2025-2026/
 │   ├── rapport.pdf                    → version PDF compilée du rapport
 │   └── figures/                       → figures centralisées utilisées dans le rapport
 │
-└── docs/                              → Documents annexes
-    └── enonce_projet.pdf              → énoncé original du projet (EMSI)
+
 ```
 
 ---
 
-## 🚀 Comment exécuter le projet
+##  Comment exécuter le projet
 
 ### Prérequis
 
@@ -71,18 +70,7 @@ deep-learning-emsi-2025-2026/
 pip install -r requirements.txt
 ```
 
-### Exécution des notebooks
-
-Chaque notebook est autonome et peut être exécuté indépendamment :
-
-```bash
-jupyter notebook partie1_mlp/notebook_mlp.ipynb
-jupyter notebook partie2_cnn/notebook_cnn.ipynb
-jupyter notebook partie3_rnn_seq2seq/notebook_rnn_lstm_gru.ipynb
-jupyter notebook partie3_rnn_seq2seq/notebook_seq2seq.ipynb
-```
-
-> 💡 Les notebooks peuvent également être ouverts directement dans **Google Colab** en les important depuis ce repository GitHub.
+>  Les notebooks peuvent également être ouverts directement dans **Google Colab** en les important depuis ce repository GitHub.
 
 ### Fichiers de poids des modèles
 
@@ -95,15 +83,9 @@ git clone https://github.com/TON_USERNAME/deep-learning-emsi-2025-2026.git
 
 ---
 
-## 📊 Rapport scientifique
-
-Le rapport complet (introduction, méthodologie, implémentation, résultats, interprétation, limites et conclusion) est disponible :
-- en version source LaTeX : [`rapport/rapport.tex`](rapport/rapport.tex)
-- en version PDF compilée : [`rapport/rapport.pdf`](rapport/rapport.pdf)
-
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **PyTorch** — implémentation des modèles de deep learning
 - **scikit-learn** — préparation des données et métriques d'évaluation
@@ -113,6 +95,6 @@ Le rapport complet (introduction, méthodologie, implémentation, résultats, in
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 Projet réalisé individuellement dans le cadre du module **Deep Learning** — Filière Informatique, EMSI Casablanca, année universitaire 2025-2026.
