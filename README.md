@@ -1,5 +1,9 @@
 Projet de Fin de Module — Deep Learning (EMSI Casablanca, 2025-2026)
+
+
 Idée générale du projet
+
+
 Ce repository contient l'ensemble des travaux réalisés dans le cadre du projet de fin de module Deep Learning à l'EMSI Casablanca. Le projet vise à concevoir, implémenter et comparer plusieurs familles d'architectures de deep learning sous PyTorch, en les adaptant à trois types de structures de données distinctes :
 Partie	Type de données	Architecture	Dataset	Résultat clé
 I	Tabulaire	MLP (Sequential + classe personnalisée)	Breast Cancer Wisconsin	Accuracy 97,67 % · AUC 0,9959
